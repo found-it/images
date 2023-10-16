@@ -3,6 +3,7 @@ contents:
     - haproxy
     - haproxy-oci-entrypoint
     - dataplaneapi
+    - posix-libc-utils
 
 accounts:
   groups:
