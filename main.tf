@@ -755,6 +755,11 @@ module "kyverno-policy-reporter" {
   target_repository = "${var.target_repository}/kyverno-policy-reporter"
 }
 
+module "logstash" {
+  source            = "./images/logstash"
+  target_repository = "${var.target_repository}/logstash"
+}
+
 module "logstash-oss-with-opensearch-output-plugin" {
   source            = "./images/logstash-oss-with-opensearch-output-plugin"
   target_repository = "${var.target_repository}/logstash-oss-with-opensearch-output-plugin"

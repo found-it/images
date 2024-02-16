@@ -7,10 +7,7 @@ terraform {
 variable "extra_packages" {
   description = "The additional packages to install"
   default = [
-    # See the logstash package if you want to know more about this. The way
-    # logstash does plugins is by using bundler to create an environment with
-    # the right gems.
-    "logstash-with-output-opensearch",
+    "logstash",
     "logstash-env2yaml",
     "logstash-compat",
   ]

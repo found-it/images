@@ -1,0 +1,10 @@
+name: logstash
+image: cgr.dev/chainguard/logstash
+logo: https://storage.googleapis.com/chainguard-academy/logos/logstash.svg
+endoflife: ""
+console_summary: ""
+short_description: Logstash - transport and process your logs, events, or other data
+compatibility_notes: ""
+readme_file: README.md
+upstream_url: https://github.com/elastic/logstash
+keywords: []
